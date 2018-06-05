@@ -1,0 +1,15 @@
+[0;1;31m●[0m mongod.service
+   Loaded: not-found (Reason: No such file or directory)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Tue 2018-06-05 19:08:45 -03; 8min ago
+ Main PID: 10945 (code=exited, status=1/FAILURE)
+
+jun 05 19:08:45 welton-desktop mongod[10945]:                                         use a compressor for log records
+jun 05 19:08:45 welton-desktop mongod[10945]:                                         [none|snappy|zlib]
+jun 05 19:08:45 welton-desktop mongod[10945]:   --wiredTigerDirectoryForIndexes       Put indexes and data in different
+jun 05 19:08:45 welton-desktop mongod[10945]:                                         directories
+jun 05 19:08:45 welton-desktop mongod[10945]:   --wiredTigerCollectionBlockCompressor arg (=snappy)
+jun 05 19:08:45 welton-desktop mongod[10945]:                                         block compression algorithm for
+jun 05 19:08:45 welton-desktop mongod[10945]:                                         collection data [none|snappy|zlib]
+jun 05 19:08:45 welton-desktop mongod[10945]:   --wiredTigerIndexPrefixCompression arg (=1)
+jun 05 19:08:45 welton-desktop mongod[10945]:                                         use prefix compression on row-store
+jun 05 19:08:45 welton-desktop mongod[10945]:                                         leaf pages
