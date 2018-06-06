@@ -7,11 +7,9 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-// app.get('/', (req, res) => {
-// 	res.send('OK');
-// });
-
+// adiciona o controller
 require('./controllers/authController')(app);
+require('./controllers/projectController')(app);
 
 // incializa o servidor
 app.listen(3000);
